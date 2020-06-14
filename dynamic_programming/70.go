@@ -17,5 +17,5 @@ func climbStairs(n int) int {
 }
 
 func main() {
-	fmt.Println(climbStairs(10))
+	fmt.Println(climbStairs(4))
 }
