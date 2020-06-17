@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"sort"
+	"unsafe"
 )
 
 
@@ -35,6 +36,8 @@ func longestConsecutive(nums []int) int {
 }
 
 func main() {
-	a := []int{1, 2, 0, 1}
-	fmt.Println(longestConsecutive(a))
+	//a := []int{1, 2, 0, 1}
+	//fmt.Println(longestConsecutive(a))
+	b := []byte{65, 66, 67, 68}
+	fmt.Println(*(*string)(unsafe.Pointer(&b)))
 }

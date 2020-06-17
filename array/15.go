@@ -1,6 +1,9 @@
 package main
 
-import "sort"
+import (
+	"sort"
+	"sync"
+)
 
 func threeSum(nums []int) [][]int {
 	length := len(nums)
@@ -16,5 +19,5 @@ func threeSum(nums []int) [][]int {
 
 
 func main() {
-	
+
 }
